@@ -29,7 +29,7 @@ The installer:
 - links the `agent-worktree` skill into `~/.claude/skills` (Claude Code) and `~/.agents/skills` (Codex)
 - if you have `jq`, shows a Claude Code settings change and asks before applying it. The change lets sandboxed agents write in `~/worktrees` and lets the command run outside the sandbox, so `git fetch` can log in.
 
-It needs Python 3.9+ and git 2.31+. `./uninstall.sh` undoes it and leaves `~/worktrees` alone.
+It needs Python 3.10+ and git 2.31+. `./uninstall.sh` undoes it and leaves `~/worktrees` alone.
 
 Then tell your agents to use it, for example in `AGENTS.md` or `CLAUDE.md`:
 
